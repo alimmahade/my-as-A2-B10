@@ -63,7 +63,7 @@ body{
    display: flex;
     
 }
-.banar-heading, .habit-header{
+.banar-heading, .habit-header, .run-header{
     font-size: 4rem;
     color: white;
 }
@@ -112,4 +112,21 @@ body{
     }
     .habit-card h3{
         color: white;
+    }
+
+    /* Run Section style */
+    .run-section-container{
+        display: flex;
+        height: 371px;
+        width: auto;
+        background-color: rgba(34, 34, 34, 1.00);
+        border-radius: 18px;
+    }
+
+
+
+    .run-right img{
+        height: 19.5rem;
+        width: 23rem;
+        border-radius:18px;
     }
