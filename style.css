@@ -63,7 +63,7 @@ body{
    display: flex;
     
 }
-.banar-heading{
+.banar-heading, .habit-header{
     font-size: 4rem;
     color: white;
 }
@@ -94,4 +94,22 @@ body{
         background-color:#E6533C;
         border-radius: 50%;
         
+    }
+ 
+ .habit-txt{
+    text-align: center;
+ }
+    .habit-card-container{
+        display: flex;
+    }
+    
+    .habit-card{
+        text-align: center;
+    }
+
+    .habit-card img{
+        border-radius: 50%;
+    }
+    .habit-card h3{
+        color: white;
     }
