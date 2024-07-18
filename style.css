@@ -12,10 +12,12 @@
 body{ 
     max-width: 1440px;
     margin:0 auto;
-
-    
     
 }
+@font-face{
+    font-family: miama;
+    src: url(icon/Miama.ttf);
+    }
 /* shared Style */
 .primary-color, .nav-left{
     color: rgba(230, 83, 60, 1.00);
@@ -74,7 +76,8 @@ body{
         display: flex;
     }
 .card-container{
-    display: inline;
+    display: inline-flex;
+    
 }
     .card-1, .card-2{
         height: 5rem;
@@ -86,7 +89,12 @@ body{
         align-items: center;
     }
     .card-1{
-        margin-right: 0;
+        margin:-100px;
+        
+    }
+    .card-2{
+        margin-top:-400px;
+        margin-left: 100px;
     }
     .shape-1{
         height: 40px;
@@ -124,9 +132,22 @@ body{
     }
 
 
-
     .run-right img{
         height: 19.5rem;
         width: 23rem;
         border-radius:18px;
+    }
+
+    /* Small Device Responsive */
+    @media screen and (max-width:576px) {
+        .navbar{
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .nav-items{
+            display: none;
+        }
+        #Nav-icon{
+            display: flex;
+        }
     }
