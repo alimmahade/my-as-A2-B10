@@ -1,19 +1,42 @@
+
 *{
     background-color: rgba(17, 17, 17, 1.00);
 }
-body{
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  
+}
+body{ 
     max-width: 1440px;
     margin:0 auto;
+
+    
+    
 }
 /* shared Style */
 .primary-color, .nav-left{
     color: rgba(230, 83, 60, 1.00);
 }
 .btn-primary{
-    border-radius: 42px;
+    border-radius: 20px;
     background-color:rgba(230, 83, 60, 1.00);
     color:#ffff;
-    padding: 20px;
+    padding: 20px 40px;
+    font-weight: bold;
+}
+.btn-secodary{
+    border-radius: 20px;
+    color:#ffff;
+    padding: 20px 40px;
+    font-weight: bold;
+    border: 1px solid white;
+}
+.para-txt{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 1rem;
 }
 
 /* navbar style */
@@ -27,8 +50,48 @@ body{
     list-style: none;
     }
 .nav-item{
-        margin-right: 16px;
+        margin-right: 47px;
+
     }
 .nav-item a{
         text-decoration: none;
+        color: white;
+        font-size: 18px;
+    }
+/* Banar Section styles */
+.banar{
+   display: flex;
+    
+}
+.banar-heading{
+    font-size: 4rem;
+    color: white;
+}
+
+
+
+.barnar-btns{
+        display: flex;
+    }
+.card-container{
+    display: inline;
+}
+    .card-1, .card-2{
+        height: 5rem;
+        width: 11rem;
+        background-color:rgba(48, 48, 48, 0.54);
+        border-radius:12px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+    .card-1{
+        margin-right: 0;
+    }
+    .shape-1{
+        height: 40px;
+        width: 40px;
+        background-color:#E6533C;
+        border-radius: 50%;
+        
     }

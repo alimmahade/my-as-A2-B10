@@ -1,0 +1,8 @@
+<div class="barnar-btns">
+          <div>
+            <button class="btn-primary">Join Club Now</button>
+          </div>
+          <div>
+            <button class="btn-secodary">Download Now</button>
+          </div>
+        </div>
