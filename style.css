@@ -209,6 +209,19 @@ body{
         margin-top: -100px;
         /* margin-left: -150px; */
     }
+    /* apointment section style */
+    .apointment-container{
+        text-align: center;
+        color: white;
+        margin-top: 20px;
+        width: auto;
+        background-color: rgba(34, 34, 34, 1.00);
+        
+        padding: 20px;
+    }
+    .apointment-container h1{
+        font-size: 4rem;
+    }
     /*------------ Footer Style ----------*/
     .footer-main{
         display: flex;
@@ -295,5 +308,8 @@ body{
         }
         .footer-left, .footer-right{
             width: 100%;
+        }
+        .apointment-container h1{
+            font-size: 1rem;
         }
     }
